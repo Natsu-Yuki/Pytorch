@@ -33,4 +33,10 @@ y.backward(t.ones(y.size()))
 # print(x.grad)
 # print(gradf(x))
 
+y = f(x)
+y.backward(t.ones(y.size()))
+#
+# print(x.grad)
+# print(gradf(x)+gradf(x))
+
 
