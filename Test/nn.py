@@ -46,3 +46,6 @@ net = nn.Sequential(
     nn.ReLU()
 )
 
+i = Variable(t.randn(2, 3, 4))
+
+lstm = nn.LSTM()
